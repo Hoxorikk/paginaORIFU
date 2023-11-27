@@ -1,0 +1,57 @@
+html{
+    background-color: rgb(241, 230, 206); 
+}
+#titulo {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: italic;
+    color: rgb(60 36 22);
+    position: absolute;
+    margin-top: 1pc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.imagen1{
+    float:left;
+    margin-left: 0%;
+    height: 50%;
+    width: 65%;
+}
+.texto1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: -0.5pc;
+    margin-top: 5pc;
+    font-size: 120%;
+}
+.texto{
+    font-style: oblique;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin-left: -0.5pc;
+    font-size: 120%;
+    margin-top: 7%;
+}
+.items{
+    display: flex;
+    margin-top:3%
+}
+.margen{
+    background-color: rgb(235, 192, 142);
+    padding: 40px;
+    margin-left: 1%;
+    margin-right: 3%;
+
+}
+.comprar {
+    width: 95px;
+    height: 35px;
+    border-radius: 10%;
+    border:  2px solid rgb(219, 82, 2);
+    background-color: rgb(243, 159, 110);
+    color:  rgb(219, 82, 2);
+    margin-left: -2%;
+    margin-top: 8%;
+    font-size: 15px;
+  }

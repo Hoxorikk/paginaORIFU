@@ -1,0 +1,174 @@
+html{
+    background-color: rgb(241, 230, 206);
+}
+#icon{
+    position: relative;
+    padding-bottom: 0;
+    margin-top: -100px;
+}
+.barra{
+    display: block;
+    background-color: rgb(0, 0, 0);
+    height:7px;
+    width: 100%;
+    position: absolute;
+    padding:25px;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+h1{
+    position: relative;
+    margin-top: 30px;
+        text-align: center;
+    color: coral;
+
+    block-size: 50px;
+    display:flex;
+    justify-content: center;
+    top:-70px;
+}
+
+#contacto{
+    padding-bottom: 6px;
+    padding-top: 6px;
+    padding-right: 6px;
+}
+#boton{
+    float:right;
+    position: relative;
+    top:-45px;
+    margin-right: 160px;
+    margin-bottom: 1000px;
+    height:30px;
+    width:90px;   padding-top: 20pt;
+    font-size:17px;
+    color:rgb(216, 216, 216);
+    background-color: rgb(26, 26, 26);
+    font-family: cursive;
+    border-radius: 10%;
+    border-color:  rgb(0, 0, 0);
+    border-width: 3px;
+    border-style:groove;
+}
+#barra_busqueda{
+    display: flex;
+    position: relative;
+    margin-top: -135px;
+    margin-left: 780px;
+}
+#iniciar_sesion{
+    color: rgb(219, 82, 2);
+    background-color: rgb(243, 159, 110);
+    border: 2px solid rgb(219, 82, 2);
+    position: absolute;
+    top: 17px;
+    height: 25px;
+    width: 170px;
+    margin-left: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body{
+	background: #313D52;
+}
+header{
+	width: 100%;
+    
+}
+.navegacion{
+	width: 100px;
+	margin: 30px auto;
+	background: rgb(243, 159, 110);
+}
+.navegacion ul{
+    margin-right: 900px;
+    margin-top: 0px;
+	list-style: none;
+}
+.menu > li{
+	position: relative;
+	display: inline-block;
+}
+.menu > li > a{
+	display: block;
+	padding: 15px 20px;
+	color: rgb(219, 82, 2);
+	font-family: 'Open sans';
+	text-decoration: none;
+}
+
+.menu li a:hover{
+	color: #CE7D35;
+	transition: all .3s;
+}
+.submenu{
+	position: absolute;
+	background: rgb(243, 159, 110);
+	width: 230%;
+	visibility: hidden;
+	opacity: 0;
+	transition: opacity 0.5s;
+}
+
+.submenu li a{
+	display: block;
+	padding: 20px;
+	color: #fff;
+	font-family: 'Open sans';
+	text-decoration: wavy;
+}
+
+.menu li:hover .submenu{
+	visibility: visible;
+	opacity: 1;
+    padding-top: 17pt;
+    padding-bottom: 17pt;
+
+}
+.slider{
+    margin-top: 5%;
+  margin-left: 130px;
+  margin-bottom: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 90%;
+  overflow: hidden;
+  
+}
+.slider ul{
+    display: flex;
+    animation: cambio 20s infinite alternate;
+    padding: 0px;
+    width: 400%;
+}
+.slider li{
+    width: 100%;
+    list-style: none;
+}
+.slider img{
+    width: 100%;
+    height: 100%;
+}
+@keyframes cambio{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    50%{margin-left: -200%;}
+    70%{margin-left: -200%;}
+    
+    75%{margin-left: -300%;}
+    100%{margin-left: -300%;}
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Inicio de sesión</title>
+  <link rel="stylesheet" type="text/css" href="../CSS/iniciar_secion.css" />
+</head>
+<body>
+  <div class="form-container">
+    <img id="logo" src="../Imagenes/fotos/LOGO.png" />
+    <h1>Inicio de sesión</h1>
+    <form class = "formulario" action="../../pagina/form.php" method="get">
+      <label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required placeholder="Nombre">
+      <label for="apellido">Apellido</label>
+      <input type="text" id="apellido" name ="apellido" required placeholder="Apellido">
+      <label for="correo">Correo</label>
+      <input type="text" id="correo" name = "correo"required placeholder="Correo">
+      <label for="telefono">Teléfono</label>
+      <input type="text" id="telefono" name = "telefono" required placeholder="Teléfono" minlength="9" maxlength="9">
+      <label for="DNI">DNI</label>
+      <input type="text" id="DNI" name = "dni"required placeholder="DNI" minlength="8" maxlength="8">
+      <label for="contraseña">Contraseña</label>
+      <input type="password" id="contraseña" name = "contraseña"required placeholder="Contraseña" minlength="8" maxlength="20">
+      <input type="checkbox" id="aceptas" required value="1">
+      <label for="aceptas">Acepta los términos y condiciones?</label>
+      <input type="submit" id="enviar" name="enviar" value="Iniciar sesión">
+    </form>
+  </div>
+</body>
+</html>

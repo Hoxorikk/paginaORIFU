@@ -1,0 +1,114 @@
+html{
+    background-color: rgb(241, 230, 206); 
+}
+#titulo{
+    color: rgb(219, 82, 2);
+    background-color: rgb(243, 159, 110);
+    border: 2px solid rgb(219, 82, 2);
+    position: absolute;
+    top: 50px;
+    height: 25px;
+    width: 100px;
+    margin-left: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linea-separadora{
+    height: 5px;
+    width: 1050px;
+    background-color: #000000;
+    margin: auto;
+    position: relative;
+    top: 100px;
+}
+#imagen1{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen2{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen3{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen4{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen5{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen6{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen7{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen8{
+    float:left;
+    position: relative;
+    margin-left: 110px;
+    margin-top: 30px;
+    display: inline-block;
+    height: 5cm;
+    width: 7cm;
+    top: 140px;
+}
+#imagen9{   
+   float:left;
+   position: relative;
+   margin-left: 110px;
+   margin-top: 30px;
+   display: inline-block;
+   height: 5cm;
+   width: 7cm;
+   top: 140px;
+}
